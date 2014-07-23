@@ -2,7 +2,7 @@
 "using strict";
 
 var comment_uncomment_extension = (function() {
-    var commentKey = { "Alt-C" : function(cm){toggleComments(cm)} };
+    var commentKey = { "Ctrl-Q" : function(cm){toggleComments(cm)} };
 
     function toggleComments(cm) { 
         var from = cm.getCursor("start"), to = cm.getCursor("end");
