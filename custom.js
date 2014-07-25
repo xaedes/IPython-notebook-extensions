@@ -108,7 +108,7 @@ $([IPython.events]).on('app_initialized.NotebookApp', function(){
    require(['custom/usability/linenumbers'])
 //    require(['custom/usability/navigation-hotkeys'])
 //    require(['custom/usability/no_exec_dunder'])
-//    require(['custom/usability/noscroll'])
+   require(['custom/usability/noscroll'])
 //    require(['custom/usability/read-only'])
 //    require(['custom/usability/search'])
 //    require(['custom/usability/shift-tab'])
